@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    min-height: 100%;
+    gap: 1em;
+    position: relative;
+}
+#svg{
+    background:rgba(255, 0, 0, 0.264);
+   padding: 3.75rem;
+}
+
+#legend{
+    height: 100px;
+    width: 400px;
+    position: absolute;
+    background: none;
+    bottom: 80px;
+    overflow: visible;
+}
+.recall{
+    overflow: visible;
+}
+.rectext{
+    font-size: 22px;
+}
+#tooltip{
+    border-radius: 9px;
+    opacity: .75;
+    background: red;
+    padding: 1rem;
+    position: absolute;
+    color: #fff;
+    font-size: 22px;
+    text-shadow: .25px .25px #333;
+}
